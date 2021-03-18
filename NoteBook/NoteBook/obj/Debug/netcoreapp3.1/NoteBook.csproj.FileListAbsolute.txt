@@ -1,0 +1,13 @@
+A:\Study\С#\Notebook\NoteBook\NoteBook\bin\Debug\netcoreapp3.1\NoteBook.exe
+A:\Study\С#\Notebook\NoteBook\NoteBook\bin\Debug\netcoreapp3.1\NoteBook.deps.json
+A:\Study\С#\Notebook\NoteBook\NoteBook\bin\Debug\netcoreapp3.1\NoteBook.runtimeconfig.json
+A:\Study\С#\Notebook\NoteBook\NoteBook\bin\Debug\netcoreapp3.1\NoteBook.runtimeconfig.dev.json
+A:\Study\С#\Notebook\NoteBook\NoteBook\bin\Debug\netcoreapp3.1\NoteBook.dll
+A:\Study\С#\Notebook\NoteBook\NoteBook\bin\Debug\netcoreapp3.1\NoteBook.pdb
+A:\Study\С#\Notebook\NoteBook\NoteBook\obj\Debug\netcoreapp3.1\NoteBook.csprojAssemblyReference.cache
+A:\Study\С#\Notebook\NoteBook\NoteBook\obj\Debug\netcoreapp3.1\NoteBook.AssemblyInfoInputs.cache
+A:\Study\С#\Notebook\NoteBook\NoteBook\obj\Debug\netcoreapp3.1\NoteBook.AssemblyInfo.cs
+A:\Study\С#\Notebook\NoteBook\NoteBook\obj\Debug\netcoreapp3.1\NoteBook.csproj.CoreCompileInputs.cache
+A:\Study\С#\Notebook\NoteBook\NoteBook\obj\Debug\netcoreapp3.1\NoteBook.dll
+A:\Study\С#\Notebook\NoteBook\NoteBook\obj\Debug\netcoreapp3.1\NoteBook.pdb
+A:\Study\С#\Notebook\NoteBook\NoteBook\obj\Debug\netcoreapp3.1\NoteBook.genruntimeconfig.cache
