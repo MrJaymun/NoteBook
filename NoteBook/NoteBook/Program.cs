@@ -7,7 +7,7 @@ namespace NoteBook
     {
         public static List<Unit> users = new List<Unit>();
 
-       
+       //Ермолин Алексей
         public static void Main(string[] args)
         {
             while (true)
@@ -19,7 +19,7 @@ namespace NoteBook
                 Console.WriteLine("Если вы хотите посмотреть список всех записей, напишите в консоль \"4\"");
                 Console.WriteLine("Если вы хотите посмотреть полную информацию по созданной записи, напишите в консоль \"5\"");
 
-                int moveID = 0; // Делаю так, потому что иначе при вводе текста происходит грусть
+                int moveID = 0; 
                 try
                 {
                     moveID = Convert.ToInt32(Console.ReadLine());
@@ -78,7 +78,7 @@ namespace NoteBook
             Console.WriteLine("Введите отчество: ");
             secondName = Console.ReadLine();
             long phone = 0;
-            // 8 - 800 - 555 - 35 - 35 --  Должно быть ровно 11 символов
+           
             while (phone.ToString().Length != 11)
             {
                 Console.WriteLine("Введите мобильный телефон без дополнительных символов (обязательно): ");
@@ -96,8 +96,7 @@ namespace NoteBook
                 Console.WriteLine("Введите страну(обязательно): ");
                 country = Console.ReadLine();
             }
-
-            // 24.04.2001 - длина 10 символов
+ 
             string dateOfBirth = "";
             Console.WriteLine("Вы хотите ввести данные о дате рождения? Если нет, нажмите Enter");
             string dateIsNeed = Console.ReadLine();
@@ -127,6 +126,7 @@ namespace NoteBook
 
         }
 
+        //Функция просмотра информации у всех пользователей
         public static void WatchUsers()
         {
             for (int i = 0; i < users.Count; i++)
@@ -135,7 +135,8 @@ namespace NoteBook
             }
 
         }
-
+        
+        //Функция просмотра подробной информации пользователя
         public static void WatchUserInfo()
         {
             Console.WriteLine(" "); // Для читаемости
@@ -171,6 +172,7 @@ namespace NoteBook
             }
         }
 
+        //Функция изменения данных у пользователя
         public static void ChangeUser()
         {
             Console.WriteLine(" "); // Для читаемости
@@ -293,6 +295,7 @@ namespace NoteBook
             
         }
 
+        //Функция удаления пользователя
         public static void DeleteUser()
         {
             Console.WriteLine(" "); // Для читаемости
@@ -332,6 +335,9 @@ namespace NoteBook
             }
 
         }
+
+
+        //Проверка даты на корректность
 
         public static string TakeDate() //хочется написать get, но это не совсем get по идее
         {
